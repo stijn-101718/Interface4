@@ -1,0 +1,14 @@
+.col1 {
+    background-color: green;
+    height: 150px;
+}
+
+.col-8{
+    background-color: yellow;
+    height: 150px;
+}
+
+.col-4 {
+    background-color: blue;
+    height: 150px;
+}
