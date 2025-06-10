@@ -1,4 +1,9 @@
-.col1 {
+body {
+    background-color: gray;
+}
+
+
+.col {
     background-color: green;
     height: 150px;
 }
