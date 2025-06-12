@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Bootstrap Grid</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    .col-box {
+      background-color: lightgray;
+      border: 1px solid #333;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-12 col-md-6 col-lg-4 col-box">
+      <div class="alert alert-info" role="alert">
+        Dit is een Bootstrap alert in Kolom 1.
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 col-box">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Voorbeeld afbeelding">
+        <div class="card-body">
+          <h5 class="card-title">Kaart Titel</h5>
+          <p class="card-text">Dit is een voorbeeld van een Bootstrap kaart.</p>
+          <a href="#" class="btn btn-primary">Meer info</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-12 col-lg-4 col-box">
+      <button class="btn btn-success w-100">Klik hier (Kolom 3)</button>
+    </div>
+
+  </div>
+  <div class="row"> leeg</div>
+</div>
+
+</body>
+</html>
+
